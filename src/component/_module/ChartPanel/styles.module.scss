@@ -1,0 +1,7 @@
+.wrapper {
+  @apply bg-blue-200 flex-1 w-full p-20;
+
+  .title {
+    @apply text-18 font-medium text-gray-700 text-center pb-20;
+  }
+}

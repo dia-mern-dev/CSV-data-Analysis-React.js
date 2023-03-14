@@ -1,0 +1,11 @@
+.wrapper {
+  @apply pt-50 px-20 text-center;
+
+  .title {
+    @apply text-24 font-semibold pb-20;
+  }
+
+  .mainWrapper {
+    @apply p-4 flex gap-20 md:flex-nowrap flex-wrap justify-center;
+  }
+}

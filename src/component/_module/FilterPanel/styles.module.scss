@@ -1,0 +1,56 @@
+.wrapper {
+  @apply bg-[#cfebf5] md:max-w-430 w-full flex-none pt-24 pb-30 px-18;
+
+  .filterTitle {
+    @apply text-18 font-medium pb-20;
+  }
+
+  .filterWrapper {
+    @apply flex w-full justify-between;
+
+    .selectWrapper {
+      @apply w-full space-y-20;
+
+      .dataSourceWrapper {
+        @apply pr-30 w-full;
+
+        .tools {
+          @apply flex items-center gap-10 pb-20;
+
+          .subTitle {
+            @apply text-18;
+          }
+
+          .icon {
+            @apply h-16 w-16;
+          }
+        }
+
+        .toolWrapper {
+          @apply flex w-full justify-between;
+        }
+      }
+
+      .select {
+        @apply md:max-w-400 w-full;
+
+        > div {
+          @apply border-white shadow-none;
+
+          &:focus-visible,
+          &:focus-within {
+            @apply border-[#b3d8e2] border shadow-[#b3d8e2];
+          }
+        }
+      }
+    }
+  }
+
+  .button {
+    @apply px-12 mt-47 py-6 bg-[#bedce4] text-gray-700 rounded-sm select-none h-fit transition-colors duration-200;
+
+    &:hover {
+      @apply bg-[#b3d8e2] text-gray-900;
+    }
+  }
+}
