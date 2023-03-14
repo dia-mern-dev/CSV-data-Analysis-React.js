@@ -18,7 +18,6 @@ Initially, no *Datasource* or *Campaign* is selected, hence the chart should sho
 
 Keep your UI/UX simple and only implement basic functionalities. The focus lies on the proper design of your application. <br/>
 
-If not told otherwise, use one of the following tech stacks:
 
 ## A) React Frontend only
 Use react with:
